@@ -1,4 +1,4 @@
-name: Test, Build, and Deploy | Modul 01 - Lab2.2 Senior Project
+name: Test, Build, and Deploy | Modul 01 - Lab3.3 Senior Project
 
 on:
   push:
@@ -19,5 +19,5 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
-      - run: npm 1
+      - run: npm i
       - run: npm run build 
